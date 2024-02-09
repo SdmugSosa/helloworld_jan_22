@@ -12,7 +12,7 @@ stage('Test') {
         echo 'Teste step'
     }
 }
- stage('Deploy') {
+  stage('Deploy') {
     steps {
         echo 'Deploy Steps'
         sleep 10
